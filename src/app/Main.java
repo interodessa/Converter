@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Enter distance");
         Scanner number = new Scanner(System.in);
         double a = number.nextInt();
-        System.out.println("1) ml -> km" + "/n" + "2) km -> ml");
+        System.out.println("1) ml -> km\n" +  "2) km -> ml");
         Scanner choice = new Scanner(System.in);
         int b = choice.nextInt();
         if (b == 1){
