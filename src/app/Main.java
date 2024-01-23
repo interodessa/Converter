@@ -25,4 +25,8 @@ public class Main {
         double result = a * 1.61;
         System.out.println("distance in km = " + result);
     }
+    public void kmInMl(double a){
+        double result = a * 0.6214;
+        System.out.println("distance in ml = " + result);
+    }
 }
