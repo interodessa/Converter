@@ -15,7 +15,8 @@ public class Main {
             obj.mlInKm(a);
         }
         if (b == 2){
-
+            Main obj1 = new Main();
+            obj1.kmInMl(a);
         }
         if (b != 1 && b != 2)
             System.out.println("error");
